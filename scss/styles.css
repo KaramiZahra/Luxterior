@@ -119,17 +119,16 @@
   line-height: 2rem;
 }
 
-.title-text {
+#main .title-text {
   color: #5a6e79;
   font-size: 2rem;
   font-family: "PoppinsSemibold";
   margin-bottom: 4rem;
 }
-
-.benefits {
+#main .benefits {
   margin-bottom: 7rem;
 }
-.benefits .title-text::before {
+#main .benefits .title-text::before {
   content: "";
   height: 3px;
   width: 7%;
@@ -138,70 +137,69 @@
   vertical-align: middle;
   margin-right: 0.5rem;
 }
-.benefits .benefit-container {
+#main .benefits .benefit-container {
   display: grid;
   grid-gap: 2rem;
   grid-auto-rows: 1fr;
   grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
 }
-.benefits .benefit-container .benefit-item {
+#main .benefits .benefit-container .benefit-item {
   display: flex;
   justify-content: space-between;
   padding-right: 1rem;
 }
-.benefits .benefit-container .benefit-item .benefit-icon {
+#main .benefits .benefit-container .benefit-item .benefit-icon {
   font-size: 2rem;
   color: #5a6e79;
   padding-right: 2rem;
 }
-.benefits .benefit-container .benefit-item .benefit-text .benefit-main-text {
+#main .benefits .benefit-container .benefit-item .benefit-text .benefit-main-text {
   font-family: "PoppinsMedium";
   font-size: 1.5rem;
   color: #333;
   margin-bottom: 2rem;
 }
-.benefits .benefit-container .benefit-item .benefit-text p {
+#main .benefits .benefit-container .benefit-item .benefit-text p {
   color: #5f5f5f;
 }
-
-.statistic {
+#main .statistic {
   display: flex;
   justify-content: space-between;
   margin-bottom: 7rem;
 }
-.statistic .statistic-image img {
+#main .statistic .statistic-image img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 0.4rem;
 }
-.statistic .statistic-text p {
+#main .statistic .statistic-text p {
   color: #5f5f5f;
   line-height: 2rem;
 }
-.statistic .statistic-text .statistic-numbers {
+#main .statistic .statistic-text .statistic-numbers {
   margin: 3rem 0;
   display: grid;
   grid-auto-rows: 1fr;
   grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
   text-align: center;
 }
-.statistic .statistic-text .statistic-numbers .number {
+#main .statistic .statistic-text .statistic-numbers .number {
   padding: 1rem 0;
 }
-.statistic .statistic-text .statistic-numbers .number h3 {
+#main .statistic .statistic-text .statistic-numbers .number h3 {
   color: #5a6e79;
   font-size: 2rem;
   font-family: "PoppinsSemibold";
 }
-.statistic .statistic-text .statistic-btn button {
+#main .statistic .statistic-text .statistic-btn button {
   background-color: transparent;
   border: none;
   margin-left: 0.5rem;
   margin-bottom: 1rem;
 }
-.statistic .statistic-text .statistic-btn button a {
+#main .statistic .statistic-text .statistic-btn button a {
   color: #5a6e79;
   border: 1px solid #5a6e79;
   border-radius: 0.3rem;
@@ -211,26 +209,25 @@
   font-size: 1rem;
   transition: all 0.3s;
 }
-.statistic .statistic-text .statistic-btn button a:hover {
+#main .statistic .statistic-text .statistic-btn button a:hover {
   color: whitesmoke;
   background-color: #5a6e79;
 }
-
-.experience {
+#main .experience {
   display: flex;
   justify-content: space-between;
   margin-bottom: 7rem;
 }
-.experience .experience-text {
+#main .experience .experience-text {
   margin-right: 2rem;
   padding-top: 2rem;
 }
-.experience .experience-text .experience-item {
+#main .experience .experience-text .experience-item {
   display: flex;
   justify-content: space-between;
   margin-bottom: 1rem;
 }
-.experience .experience-text .experience-item .experience-item-number {
+#main .experience .experience-text .experience-item .experience-item-number {
   background-color: #5a6e79;
   color: whitesmoke;
   height: -moz-min-content;
@@ -244,7 +241,7 @@
   margin-right: 1rem;
   position: relative;
 }
-.experience .experience-text .experience-item .experience-item-number::after {
+#main .experience .experience-text .experience-item .experience-item-number::after {
   content: "";
   width: 3px;
   height: 160%;
@@ -253,31 +250,30 @@
   position: absolute;
   bottom: -180%;
 }
-.experience .experience-text .experience-item .experience-item-text h3 {
+#main .experience .experience-text .experience-item .experience-item-text h3 {
   font-family: "PoppinsMedium";
   color: #333;
   margin-bottom: 2rem;
 }
-.experience .experience-text .experience-item .experience-item-text p {
+#main .experience .experience-text .experience-item .experience-item-text p {
   color: #5f5f5f;
 }
-.experience .experience-image img {
+#main .experience .experience-image img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 0.4rem;
 }
-
-.customers {
+#main .customers {
   margin-bottom: 7rem;
 }
-.customers .Swiper {
+#main .customers .Swiper {
   margin: 7rem auto;
   width: 100%;
   position: relative;
 }
-.customers .Swiper .swiper-wrapper .swiper-slide {
+#main .customers .Swiper .swiper-wrapper .swiper-slide {
   background-color: #5a6e79;
   color: whitesmoke;
   border-radius: 0.4rem;
@@ -286,45 +282,45 @@
   flex-direction: column;
   justify-content: center;
 }
-.customers .Swiper .swiper-wrapper .swiper-slide .fa-quote-left {
+#main .customers .Swiper .swiper-wrapper .swiper-slide .fa-quote-left {
   font-size: 5rem;
   margin-top: 0;
 }
-.customers .Swiper .swiper-wrapper .swiper-slide .swiper-main-text {
+#main .customers .Swiper .swiper-wrapper .swiper-slide .swiper-main-text {
   font-family: "PoppinsMedium";
   font-size: 1.3rem;
   color: whitesmoke;
   margin-top: 1.5rem;
   margin-bottom: 1rem;
 }
-.customers .Swiper .swiper-wrapper .swiper-slide .swiper-desc-text {
+#main .customers .Swiper .swiper-wrapper .swiper-slide .swiper-desc-text {
   font-size: 0.8rem;
   line-height: 2rem;
   padding-bottom: 2rem;
 }
-.customers .Swiper .swiper-wrapper .swiper-slide .customer-profile {
+#main .customers .Swiper .swiper-wrapper .swiper-slide .customer-profile {
   display: flex;
   align-items: center;
 }
-.customers .Swiper .swiper-wrapper .swiper-slide .customer-profile img {
+#main .customers .Swiper .swiper-wrapper .swiper-slide .customer-profile img {
   width: 3rem;
   height: 3rem;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 50%;
 }
-.customers .Swiper .swiper-wrapper .swiper-slide .customer-profile h4 {
+#main .customers .Swiper .swiper-wrapper .swiper-slide .customer-profile h4 {
   font-size: 0.8rem;
   padding-left: 1rem;
 }
-.customers .Swiper .swiper-icon {
+#main .customers .Swiper .swiper-icon {
   position: absolute;
   top: -20%;
   right: 0;
   display: flex;
 }
-.customers .Swiper .swiper-icon .swiper-left i,
-.customers .Swiper .swiper-icon .swiper-right i {
+#main .customers .Swiper .swiper-icon .swiper-left i,
+#main .customers .Swiper .swiper-icon .swiper-right i {
   margin-left: 1rem;
   color: #5a6e79;
   border-radius: 50%;
@@ -332,42 +328,41 @@
   font-size: 1.3rem;
   transition: all 0.4s;
 }
-.customers .Swiper .swiper-icon .swiper-left i:hover,
-.customers .Swiper .swiper-icon .swiper-right i:hover {
+#main .customers .Swiper .swiper-icon .swiper-left i:hover,
+#main .customers .Swiper .swiper-icon .swiper-right i:hover {
   color: whitesmoke;
   background-color: #5a6e79;
 }
-
-.subscription {
+#main .subscription {
   margin-bottom: 7rem;
   text-align: center;
 }
-.subscription .title-text {
+#main .subscription .title-text {
   margin-bottom: 1.5rem;
 }
-.subscription p {
+#main .subscription p {
   color: #333;
   line-height: 2rem;
   margin-bottom: 1.5rem;
 }
-.subscription .subscription-box {
+#main .subscription .subscription-box {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.subscription .subscription-box input {
+#main .subscription .subscription-box input {
   font-size: 0.8rem;
   padding: 1rem;
   border-radius: 0.4rem;
   border: 1px solid #5a6e79;
   outline: none;
 }
-.subscription .subscription-box button {
+#main .subscription .subscription-box button {
   border: none;
   background-color: transparent;
   margin-left: 0.5rem;
 }
-.subscription .subscription-box button a {
+#main .subscription .subscription-box button a {
   text-decoration: none;
   font-size: 0.9rem;
   color: whitesmoke;
@@ -377,7 +372,7 @@
   padding: 1rem 2.5rem;
   transition: all 0.3s;
 }
-.subscription .subscription-box button a:hover {
+#main .subscription .subscription-box button a:hover {
   color: #5a6e79;
   background-color: whitesmoke;
 }
