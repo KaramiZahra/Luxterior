@@ -29,7 +29,7 @@
   margin: 0 auto;
   padding: 0 1rem;
 }
-/* Navbar */
+// Navbar
 .nav-bar {
   display: flex;
   justify-content: space-between;
@@ -53,7 +53,7 @@
 
       a {
         text-decoration: none;
-        /* color: #5a6e79; */
+        // color: #5a6e79;
         font-size: 1.1rem;
         padding-left: 2rem;
 
@@ -101,14 +101,14 @@
   }
 }
 
-/* Header */
+// Header
 .header {
   display: flex;
   justify-content: space-between;
   margin-bottom: 7rem;
 
   .header-image {
-    /* flex-basis: 65%; */
+    // flex-basis: 65%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -117,16 +117,16 @@
       width: 100%;
       height: 100%;
       object-fit: cover;
-      /* border-radius: 0 0.4rem 0.4rem 0; */
+      // border-radius: 0 0.4rem 0.4rem 0;
     }
   }
 
   .header-text {
-    /* flex-basis: 35%; */
+    // flex-basis: 35%;
     background-color: #5a6e79;
     color: whitesmoke;
     padding: 1rem 2rem;
-    /* border-radius: 0.4rem 0 0 0.4rem; */
+    // border-radius: 0.4rem 0 0 0.4rem;
 
     h1 {
       font-family: "PoppinsBold";
@@ -139,8 +139,7 @@
     }
   }
 }
-
-/* Benefits */
+// Benefits
 .title-text {
   color: #5a6e79;
   font-size: 2rem;
@@ -196,7 +195,7 @@
   }
 }
 
-/* Statistic */
+// Statistic
 .statistic {
   display: flex;
   justify-content: space-between;
@@ -266,7 +265,7 @@
   }
 }
 
-/* Experience */
+// Experience
 .experience {
   display: flex;
   justify-content: space-between;
@@ -332,7 +331,7 @@
   }
 }
 
-/* Customers */
+// Customers
 .customers {
   margin-bottom: 7rem;
 
@@ -346,23 +345,26 @@
         background-color: #5a6e79;
         color: whitesmoke;
         border-radius: 0.4rem;
-        padding: 3rem 4rem;
+        padding: 2rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
 
         .fa-quote-left {
-          font-size: 6rem;
+          font-size: 5rem;
+          margin-top: 0;
         }
 
         .swiper-main-text {
           font-family: "PoppinsMedium";
-          font-size: 1.5rem;
+          font-size: 1.3rem;
           color: whitesmoke;
-          margin: 2rem 0;
+          margin-top: 1.5rem;
+          margin-bottom: 1rem;
         }
 
         .swiper-desc-text {
+          font-size: 0.8rem;
           line-height: 2rem;
           padding-bottom: 2rem;
         }
@@ -372,8 +374,8 @@
           align-items: center;
 
           img {
-            width: 4rem;
-            height: 4rem;
+            width: 3rem;
+            height: 3rem;
             object-fit: cover;
             border-radius: 50%;
           }
@@ -413,7 +415,7 @@
   }
 }
 
-/* Subscription */
+// Subscription
 .subscription {
   margin-bottom: 7rem;
   text-align: center;
@@ -464,7 +466,7 @@
   }
 }
 
-/* Footer */
+// Footer
 .footer {
   background-color: #5a6e79;
   padding: 2rem;
@@ -540,7 +542,7 @@
   }
 }
 
-/* Copyright */
+// Copyright
 .copyright {
   background-color: #dae7ed;
   color: #5a6e79;
